@@ -1,0 +1,18 @@
+Definition
+React is a JavaScript library for building user interfaces. React relies on components to perform effectively. It can be rendered on server using Node and powerful mobile apps using React Native. 
+Its declarative views make your code more predictable and easy to debug. Created by Facebook.
+Create React App	
+create-react-app includes built tools such as webpack, Babel, and ESLint.
+To run a React application on your computer use the create-react-app. 
+Open your terminal in the directory you would like to create your application.
+Node.js is required to use create-react-app.
+npx create-react-app my-react-app 
+note: my-react-app is the folder name or project directory 
+The command create-react-app will setup everything you need to create a React application. 
+Running React App
+Run this command to move to the my-react-app directory:
+cd my-react-app
+Run this command to execute the React application my-react-app:
+npm start
+
+Resources:  Official ReactJS Doc and W3schools
