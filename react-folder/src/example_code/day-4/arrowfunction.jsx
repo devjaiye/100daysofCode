@@ -2,4 +2,9 @@
 
 hello = () => "Hello world"
 
-console.log(hello)
+// console.log(hello)
+
+//..Arrow function with parameters 
+greeting =(value)=> "Hello" + value
+show = greeting(" There")
+console.log(show)
