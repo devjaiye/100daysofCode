@@ -1,3 +1,6 @@
+/*Destructuring is the process of taking a particular element or object
+ from an array. For instance, picking a book you want to read on the shelf. 
+Destructuring makes it easy to extract only what is needed */
 
 function calculator(x,y){
     addition = x + y
