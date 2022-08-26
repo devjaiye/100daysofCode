@@ -19,4 +19,3 @@ function latestVehicle ({brand, type, color, model, year}){
      color + " " + model + " "+ year + " model" 
     console.log(info)
 }
-
