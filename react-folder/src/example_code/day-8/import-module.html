@@ -1,0 +1,16 @@
+<!-- import from modules.js file  -->
+
+<!DOCTYPE html>
+<html>
+<body>
+<p id="text"></p>
+<script type="module">
+import { carName, age } from "./modules.js";
+
+document.getElementById("text").innerHTML = "Car name is: " + name;
+document.getElementById("text").innerHTML += ", price " + age + ".";
+
+</script>
+
+</body>
+</html>
