@@ -13,4 +13,5 @@ export const price = 20000
     const carName = "Toyota Camry"
     const price = 30000
     export {carName, price} 
+    
  

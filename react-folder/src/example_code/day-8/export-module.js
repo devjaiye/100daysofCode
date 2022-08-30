@@ -7,5 +7,4 @@ const info = () => {
 
     return name + " lives in " + address + ". He is " + age + " years old."
 }
-
 export default info
