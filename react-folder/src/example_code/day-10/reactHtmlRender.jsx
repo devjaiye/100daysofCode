@@ -1,0 +1,1 @@
+//..React uses the function "ReactDOM.render()" to load in a web page
