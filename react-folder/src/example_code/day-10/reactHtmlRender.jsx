@@ -5,3 +5,5 @@
 
 //...The purpose of the function is to display the specified HTML 
 //...code inside the specified HTML element.
+
+//..our React code is rendered inside the index.html file which is found in the public folder
