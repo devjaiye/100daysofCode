@@ -1,2 +1,2 @@
 # 100daysofCode
-Here is the process of my 100 days of code journey. 
+Here is the progress of my 100 days of code journey. 
