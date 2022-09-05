@@ -8,6 +8,8 @@
 
 //..our React code is rendered inside the index.html file which is found in the public folder
 
+
+//.. note: this code should be placed inside the index.js
 import React from "react";
 
 const tableData = (
