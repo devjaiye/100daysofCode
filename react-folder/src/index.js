@@ -1,14 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-//..To write HTML on multiple lines, put the HTML inside parentheses
-const myList = (
-    <ul>
-        <li>Rice</li>
-        <li>Beans</li>
-        <li>Garri</li>
-        <li>Maize</li>
-    </ul>
-)
 
-ReactDOM.createRoot(document.getElementById('root')).render(myList)
+//..if you are using multiple elements wrap them inside a parent <div> or fragment <>
+const multipleElements = (
+    <div>
+    <p>Hello world 1</p>
+    <p> Hello world 2</p>
+    </div>
+    )
+
+    ReactDOM.createRoot(document.getElementById('root')).render(multipleElements)
+    
+
+
