@@ -1,0 +1,15 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+
+//..conditional statement cannot be used inside of JSX expect outside. 
+//..to use it conditions inside JSX, we can make use of ternary expression
+
+const value = 10
+const conditionStmt = <h1>
+    {(value) < 20 ? "Yes" : "No"}
+    </h1>
+
+ReactDOM.createRoot(document.getElementById('root')).render(conditionStmt)
+    
+
+
