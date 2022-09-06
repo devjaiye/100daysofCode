@@ -4,3 +4,19 @@ With JSX you can add HMTL code in React easily.
 JSX helps to convert the HTML code into react elements. 
 JSX allows us to write HTML elements in JavaScript and place them in the
 DOM without any createElement()  and/or appendChild() methods.
+
+example code --- put the code in index.js file
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+//...JSX example code 
+
+//..react variale accepting h1 element
+const myText = <h1>Displaying a JSX text</h1> 
+
+//..created a root varialve to call the root id from index.html in the public folder
+const root = ReactDOM.createRoot(document.getElementById('root'))
+
+//..rendering the text 
+root.render(myText)

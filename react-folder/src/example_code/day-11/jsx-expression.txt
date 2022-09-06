@@ -2,4 +2,8 @@ With JSX you can write expressions inside curly braces { }.
 The expression can be a React variable, or property, or any other valid JavaScript expression. 
 JSX will execute the expression and return the result. 
 
+example code
 
+const jsxWithExpression = <h1>I am {5 + 5} times better than before</h1>
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(jsxWithExpression)
